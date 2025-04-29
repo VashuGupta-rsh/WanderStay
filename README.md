@@ -5,10 +5,15 @@
 **Summary**
 
 🔹Wanderstay is a comprehensive, full-stack hotel booking web application that allows users to seamlessly register, log in, explore hotel listings, create and manage their own listings, and leave or remove reviews. 
+
 🔹Built with the MERN stack (MongoDB, Express.js, Node.js) and powered by EJS templating, Wanderstay offers a dynamic, responsive user experience with a powerful backend.
+
 🔹The application utilizes RESTful APIs developed with Node.js and Express.js for handling user authentication and authorization, session management, and data processing.
+
 🔹The front-end UI is dynamically rendered using the EJS templating engine, styled with HTML, CSS, and Bootstrap for a seamless and responsive design across devices. 
+
 🔹MongoDB serves as the primary data storage solution, efficiently managing user data, hotel listings, and reviews with well-structured schema design.
+
 🔹The platform supports full CRUD operations for both users and administrators, with role-based access ensuring an intuitive and secure user experience.
 
 ---
