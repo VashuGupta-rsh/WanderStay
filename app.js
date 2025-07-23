@@ -24,6 +24,7 @@ const userRouter = require("./routes/user.js");
 
 const dbUrl = process.env.DB_URL;
 
+const Listing = require("./models/listing.js");
 
 main()
     .then(() => {
@@ -35,6 +36,7 @@ main()
 
 async function main() {
     await mongoose.connect(dbUrl);  
+
 }
 
 
@@ -96,6 +98,8 @@ app.use("/", userRouter);
 app.get("/", (req, res) => {
   res.redirect("/listings");
 });
+
+
 
 app.all("*", (req, res, next) => {
     next(new ExpressError(404, "Page Not Found!"));
